@@ -1,0 +1,20 @@
+/* Direção visual: Oficina Editorial — Swiss Style automotivo, grafite #1F2523, creme #F5F1EA e Laranja Ferramenta #E56A35. */
+@import "tailwindcss";
+@import "tw-animate-css";
+@custom-variant dark (&:is(.dark *));
+@theme inline {
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Barlow Condensed", sans-serif;
+  --color-background: var(--background); --color-foreground: var(--foreground); --color-card: var(--card); --color-card-foreground: var(--card-foreground); --color-popover: var(--popover); --color-popover-foreground: var(--popover-foreground); --color-primary: var(--primary); --color-primary-foreground: var(--primary-foreground); --color-secondary: var(--secondary); --color-secondary-foreground: var(--secondary-foreground); --color-muted: var(--muted); --color-muted-foreground: var(--muted-foreground); --color-accent: var(--accent); --color-accent-foreground: var(--accent-foreground); --color-border: var(--border); --color-input: var(--input); --color-ring: var(--ring);
+}
+:root { --radius: 0.2rem; --background: oklch(0.96 0.012 80); --foreground: oklch(0.21 0.02 160); --card: oklch(0.96 0.012 80); --card-foreground: oklch(0.21 0.02 160); --popover: oklch(0.96 0.012 80); --popover-foreground: oklch(0.21 0.02 160); --primary: oklch(0.57 0.17 38); --primary-foreground: oklch(1 0 0); --secondary: oklch(0.89 0.015 80); --secondary-foreground: oklch(0.21 0.02 160); --muted: oklch(0.89 0.015 80); --muted-foreground: oklch(0.45 0.02 160); --accent: oklch(0.57 0.17 38); --accent-foreground: oklch(1 0 0); --border: oklch(0.21 0.02 160 / 16%); --input: oklch(0.21 0.02 160 / 16%); --ring: oklch(0.57 0.17 38); }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F5F1EA; font-family: "DM Sans", sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #E56A35; color: white; }
+.font-display { font-family: "Barlow Condensed", sans-serif; }
+.section-kicker { display: flex; align-items: center; gap: 12px; color: #E56A35; font-size: 10px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+.section-kicker span { display: inline-flex; align-items: center; justify-content: center; width: 27px; height: 27px; border: 1px solid #E56A35; font-family: "Barlow Condensed", sans-serif; font-size: 14px; letter-spacing: 0; }
+.section-kicker.light { color: #E56A35; }
+@media (prefers-reduced-motion: no-preference) { a, button, article { transition-timing-function: cubic-bezier(.23,1,.32,1); } }
