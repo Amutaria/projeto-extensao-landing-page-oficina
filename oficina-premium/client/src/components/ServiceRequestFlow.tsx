@@ -8,10 +8,10 @@ type Professional = { id: string; name: string; specialty: string; experience: n
 type RequestData = { client: string; phone: string; vehicle: string; year: string; problem: string; notes: string };
 
 export const professionals: Professional[] = [
-  { id: "freios-abs", name: "Freios e sistemas ABS", specialty: "Especialidade da ABS Center", experience: 46, services: ["Freios", "Sistemas ABS", "Diagnóstico de frenagem", "Segurança automotiva"] },
-  { id: "revisao-preventiva", name: "Revisão e manutenção preventiva", specialty: "Cuidado completo para o seu veículo", experience: 46, services: ["Revisão preventiva", "Troca de óleo", "Filtros", "Manutenção geral"] },
-  { id: "diagnostico-automotivo", name: "Diagnóstico automotivo", specialty: "Scanner e diagnóstico computadorizado", experience: 46, services: ["Injeção eletrônica", "Motor", "Scanner", "Falhas eletrônicas"] },
-  { id: "servicos-automotivos", name: "Serviços automotivos", specialty: "Atendimento personalizado", experience: 46, services: ["Suspensão e direção", "Ar-condicionado", "Elétrica automotiva", "Troca de bateria"] },
+  { id: "freios-abs", name: "Freios e sistemas ABS", specialty: "Especialidade da ABS Center", experience: 28, services: ["Freios", "Sistemas ABS", "Diagnóstico de frenagem", "Segurança automotiva"] },
+  { id: "revisao-preventiva", name: "Revisão e manutenção preventiva", specialty: "Cuidado completo para o seu veículo", experience: 28, services: ["Revisão preventiva", "Troca de óleo", "Filtros", "Manutenção geral"] },
+  { id: "diagnostico-automotivo", name: "Diagnóstico automotivo", specialty: "Scanner e diagnóstico computadorizado", experience: 28, services: ["Injeção eletrônica", "Motor", "Scanner", "Falhas eletrônicas"] },
+  { id: "servicos-automotivos", name: "Serviços automotivos", specialty: "Atendimento personalizado", experience: 28, services: ["Suspensão e direção", "Ar-condicionado", "Elétrica automotiva", "Troca de bateria"] },
 ];
 
 const commonProblems = ["Problemas no motor", "Superaquecimento", "Vazamento de óleo", "Vazamento de água", "Falha na partida", "Carro perdendo potência", "Barulhos estranhos", "Problemas no freio", "Problemas na suspensão", "Problemas elétricos", "Bateria descarregando", "Luz de injeção acesa", "Ar-condicionado", "Problemas no câmbio", "Pneus", "Alinhamento e balanceamento"];
