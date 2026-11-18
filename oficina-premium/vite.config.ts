@@ -26,7 +26,11 @@ export default defineConfig({
     port: 3000,
     strictPort: false,
     host: true,
-    allowedHosts: ["localhost", "127.0.0.1"],
+    allowedHosts: [
+      "localhost",
+      "127.0.0.1",
+      ".app.github.dev",
+    ],
     fs: {
       strict: true,
       deny: ["**/.*"],
